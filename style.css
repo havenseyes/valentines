@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif; /* Fallback font family */
     text-align: center; /* Center-align text */
     margin: 0; /* Remove default margin */
-    background-color: black; /* Set background color to light pink */
+    background-color: #66004d; /* Set background color to light pink */
 }
 
 #container {
@@ -35,6 +35,7 @@ button {
     font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
     background-color: #862d59; /* Set button background color */
     color: black; /* Set text color to white */
-    border: none; /* Remove button border */
+    border-radius: 8px; /* Remove button border */
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, , 0%, 0.3);
     cursor: pointer; /* Set cursor to pointer on hover */
 }
