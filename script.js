@@ -3,14 +3,12 @@
 function selectOption(option) {
     // Check which option was clicked
     if (option === 'yes') {
-        // Flash rainbow colors
-            document.getElementById('pt2').style.display = '';
+        // Flash rainbow color
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none';
-            document.getElementById('options').style.display = 'none';
             // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
-          
+            document.getElementById('pt2').style.display = '';
             
         });
     } else if (option === 'no') {
