@@ -10,6 +10,7 @@ function selectOption(option) {
             document.getElementById('options').style.display = 'none';
             // Hide the question
             displayCatHeart();// Display the cat-heart.gif
+            document.getElementById("pt2").style.display="none";
         });
         document.getElementById("pt2").style.display="";
     } else if (option === 'no') {
