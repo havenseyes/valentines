@@ -2,6 +2,7 @@
 // Function to handle button click events
 document.getElementById("pt2").style.display="none";
 function selectOption(option) {
+    document.getElementById("pt2").style.display="none";
     // Check which option was clicked
     if (option === 'yes') {
         // Flash rainbow color
@@ -10,6 +11,7 @@ function selectOption(option) {
             document.getElementById('options').style.display = 'none';
             // Hide the question
             displayCatHeart();// Display the cat-heart.gif
+            document.getElementById("pt2").style.display="none";
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
