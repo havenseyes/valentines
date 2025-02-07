@@ -1,6 +1,7 @@
 // script.js
 // Function to handle button click events
 function selectOption(option) {
+     document.getElementById('options').style.display = 'none';
     // Check which option was clicked
     if (option === 'yes') {
         // Flash rainbow color
@@ -9,7 +10,7 @@ function selectOption(option) {
             document.getElementById('options').style.display = 'none';
             // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
-            
+            displaypt2();
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
@@ -79,6 +80,8 @@ function displayCatHeart() {
         document.getElementById('options').style.display = 'none';
     };
 }
-
+function displaypt2() {
+    document.getElementById('options').style.display = '';
+}
 // Display the cat.gif initially
 displayCat();
