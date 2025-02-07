@@ -1,12 +1,13 @@
 // script.js
 // Function to handle button click events
-document.getElementById("pt2").style.display="none"
+document.getElementById("pt2").style.display="none";
 function selectOption(option) {
     // Check which option was clicked
     if (option === 'yes') {
         // Flash rainbow color
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none';
+            document.getElementById('options').style.display = 'none';
             // Hide the question
             displayCatHeart();// Display the cat-heart.gif
         });
