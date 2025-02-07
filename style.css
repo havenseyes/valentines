@@ -69,3 +69,7 @@ button {
   background-color: #e699ff;
   color: black;
 }
+
+p {
+  margin: 10px;
+}
