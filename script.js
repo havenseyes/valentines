@@ -1,5 +1,5 @@
 // script.js
-
+document.getElementById('pt2').style.display = 'none';
 // Function to handle button click events
 function selectOption(option) {
     // Check which option was clicked
@@ -7,9 +7,9 @@ function selectOption(option) {
         // Flash rainbow colors
             document.getElementById('pt2').style.display = 'none';
         flashRainbowColors(function() {
-            document.getElementById('pt2').style.display = 'none';
             document.getElementById('question').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
+            document.getElementById('pt2').style.display = '';
             
         });
     } else if (option === 'no') {
@@ -24,7 +24,6 @@ function selectOption(option) {
     } else {
         // If neither "Yes" nor "No" was clicked, show an alert message
         alert('Invalid option!');
-        document.getElementById('pt2').style.display = 'none';
         
     }
 }
@@ -80,7 +79,6 @@ function displayCatHeart() {
         imageContainer.appendChild(catHeartImage);
         // Hide the options container
         document.getElementById('options').style.display = 'none';
-        document.getElementById('pt2').style.display = ''
     };
 }
 
