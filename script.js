@@ -6,7 +6,8 @@ function selectOption(option) {
     if (option === 'yes') {
         // Flash rainbow color
         flashRainbowColors(function() {
-            document.getElementById('options').style.display = 'none';
+            document.getElementById('question').style.display = 'none';
+            document.getElementById("pt2").style.display="none"
             // Hide the question
             displayCatHeart();// Display the cat-heart.gif
         });
