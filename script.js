@@ -1,7 +1,7 @@
 // script.js
 // Function to handle button click events
 function selectOption(option) {
-     document.getElementById('options').style.display = 'none';
+     document.getElementById('pt2').style.display = 'none';
     // Check which option was clicked
     if (option === 'yes') {
         // Flash rainbow color
@@ -82,6 +82,7 @@ function displayCatHeart() {
 }
 function displaypt2() {
     document.getElementById('options').style.display = '';
+    document.getElementById('question').style.display = 'none';
 }
 // Display the cat.gif initially
 displayCat();
