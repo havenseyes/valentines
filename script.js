@@ -6,11 +6,11 @@ function selectOption(option) {
     if (option === 'yes') {
         // Flash rainbow color
         flashRainbowColors(function() {
+            document.getElementById("pt2").style.display="none";
             document.getElementById('question').style.display = 'none';
             document.getElementById('options').style.display = 'none';
             // Hide the question
             displayCatHeart();// Display the cat-heart.gif
-            document.getElementById("pt2").style.display="none";
         });
         document.getElementById("pt2").style.display="";
     } else if (option === 'no') {
@@ -44,6 +44,7 @@ function flashRainbowColors(callback) {
             callback();
         }
     }, 2000); // Flash colors for 2 seconds
+    document.getElementById("pt2").style.display="none";
 }
 
 // Function to display the cat.gif initially
