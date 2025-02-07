@@ -73,3 +73,10 @@ button {
 p {
   margin: 10px;
 }
+
+img {
+ border-radius: 8px;
+ display: block;
+  margin: auto;
+  width: 50%; 
+}
