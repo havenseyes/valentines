@@ -7,7 +7,6 @@ function selectOption(option) {
         // Flash rainbow color
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none';
-            document.getElementById("pt2").style.display="none"
             // Hide the question
             displayCatHeart();// Display the cat-heart.gif
         });
@@ -42,7 +41,6 @@ function flashRainbowColors(callback) {
             callback();
         }
     }, 2000); // Flash colors for 2 seconds
-    document.getElementById("pt2").style.display="none";
 }
 
 // Function to display the cat.gif initially
