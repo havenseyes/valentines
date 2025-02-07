@@ -6,13 +6,12 @@ function selectOption(option) {
     if (option === 'yes') {
         // Flash rainbow color
         flashRainbowColors(function() {
-            document.getElementById("pt2").style.display="none";
             document.getElementById('question').style.display = 'none';
             document.getElementById('options').style.display = 'none';
             // Hide the question
             displayCatHeart();// Display the cat-heart.gif
         });
-        document.getElementById("pt2").style.display="";
+        document.getElementById("pt2").style.display="none";
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
         document.getElementById('pt2').style.display = 'none';
