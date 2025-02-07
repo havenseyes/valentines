@@ -1,5 +1,6 @@
 // script.js
 // Function to handle button click events
+document.getElementById("pt2").style.display="none"
 function selectOption(option) {
     // Check which option was clicked
     if (option === 'yes') {
@@ -8,7 +9,8 @@ function selectOption(option) {
             document.getElementById('question').style.display = 'none';
             document.getElementById('options').style.display = 'none';
             // Hide the question
-            displayCatHeart(); // Display the cat-heart.gif
+            displayCatHeart();// Display the cat-heart.gif
+            document.getElementById("elementId").style.display=""
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
