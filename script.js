@@ -7,12 +7,13 @@ function selectOption(option) {
         // Flash rainbow colors
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
-            document.getElementById('pt2').style.display = 'none';
+            document.getElementById('pt2').style.display = '';
             displayCatHeart(); // Display the cat-heart.gif
             
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
+        document.getElementById('pt2').style.display = 'none';
         document.getElementById('no-button').innerText = 'Pretty please'; 
         // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
@@ -21,7 +22,9 @@ function selectOption(option) {
         yesButton.style.fontSize = newSize + 'px';
     } else {
         // If neither "Yes" nor "No" was clicked, show an alert message
+        document.getElementById('pt2').style.display = 'none';
         alert('Invalid option!');
+        
     }
 }
 
@@ -66,6 +69,7 @@ function displayCatHeart() {
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat-heart
     var catHeartImage = new Image();
+    var container = document.getElementById('pt2');
     // Set the source (file path) for the cat-heart image
     catHeartImage.src = 'cat-heart.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
     // Set alternative text for the image (for accessibility)
@@ -75,6 +79,7 @@ function displayCatHeart() {
         imageContainer.appendChild(catHeartImage);
         // Hide the options container
         document.getElementById('options').style.display = 'none';
+
         document.getElementById('pt2').style.display = ''
     };
 }
