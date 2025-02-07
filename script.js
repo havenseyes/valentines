@@ -8,6 +8,8 @@ function selectOption(option) {
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
+            <div id="pt2">Thank you for choosing me, my angel, I couldn't be happier !!
+</div>
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
