@@ -1,9 +1,5 @@
 // script.js
 // Function to handle button click events
-function displayContainer () {
-document.getElementById('pt2').style.display = 'none';
-document.getElementById('question').style.display = ''
-}
 function selectOption(option) {
     // Check which option was clicked
     if (option === 'yes') {
