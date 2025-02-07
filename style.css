@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif; /* Fallback font family */
     text-align: center; /* Center-align text */
     text-color: white;
-    margin: 10px; /* Remove default margin */
+    margin: 0; /* Remove default margin */
     background-color: #b300b3; /* Set background color to light pink */
 }
 
@@ -44,10 +44,11 @@ button {
 #pt2 {
   font-family: "Emilys Candy", serif;
   font-size: 30px;
+  margin: 10px;
 }
 
 #navbar {
-  background-color: #333; /* Black background color */
+  background-color: #250033; /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
@@ -65,6 +66,6 @@ button {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: #e699ff;
   color: black;
 }
