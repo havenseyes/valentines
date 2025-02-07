@@ -10,8 +10,8 @@ function selectOption(option) {
             document.getElementById('options').style.display = 'none';
             // Hide the question
             displayCatHeart();// Display the cat-heart.gif
-            document.getElementById("pt2").style.display=""
         });
+        document.getElementById("pt2").style.display="";
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
         document.getElementById('pt2').style.display = 'none';
