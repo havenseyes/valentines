@@ -7,7 +7,7 @@ function selectOption(option) {
         // Flash rainbow colors
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
-            document.getElementById('pt2').style.display = '';
+            document.getElementById('pt2').style.display = 'none';
             displayCatHeart(); // Display the cat-heart.gif
             
         });
@@ -22,7 +22,6 @@ function selectOption(option) {
         yesButton.style.fontSize = newSize + 'px';
     } else {
         // If neither "Yes" nor "No" was clicked, show an alert message
-        document.getElementById('pt2').style.display = 'none';
         alert('Invalid option!');
         
     }
@@ -79,7 +78,7 @@ function displayCatHeart() {
         imageContainer.appendChild(catHeartImage);
         // Hide the options container
         document.getElementById('options').style.display = 'none';
-
+    document.getElementById('container').innerHTML = '';
         document.getElementById('pt2').style.display = ''
     };
 }
