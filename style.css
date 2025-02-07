@@ -5,7 +5,7 @@ body {
     text-align: center; /* Center-align text */
     text-color: white;
     margin: 0; /* Remove default margin */
-    background-color: #800080; /* Set background color to light pink */
+    background-color: #b300b3; /* Set background color to light pink */
 }
 
 #container {
@@ -34,9 +34,9 @@ button {
     margin: 0 10px; /* Set margin around buttons */
     font-size: 26px; /* Set font size for buttons */
     font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
-    background-color: #cc6699; /* Set button background color */
+    background-color: #ffb3ff; /* Set button background color */
     color: black; /* Set text color to white */
-    border-radius: 10px; /* Remove button border */
+    border-radius: 8px; /* Remove button border */
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, , 0%, 0.3);
     cursor: pointer; /* Set cursor to pointer on hover */
 }
