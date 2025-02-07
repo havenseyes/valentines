@@ -11,7 +11,6 @@ function selectOption(option) {
             document.getElementById('question').style.display = 'none';
             // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
-            document.getElementById('pt2').style.display = '';
             
         });
     } else if (option === 'no') {
@@ -71,7 +70,6 @@ function displayCatHeart() {
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat-heart
     var catHeartImage = new Image();
-    var container = document.getElementById('pt2');
     // Set the source (file path) for the cat-heart image
     catHeartImage.src = 'cat-heart.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
     // Set alternative text for the image (for accessibility)
