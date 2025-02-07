@@ -1,5 +1,4 @@
 // script.js
-document.getElementById('pt2').style.display = 'none';
 // Function to handle button click events
 function selectOption(option) {
     // Check which option was clicked
@@ -7,7 +6,9 @@ function selectOption(option) {
         // Flash rainbow colors
             document.getElementById('pt2').style.display = '';
         flashRainbowColors(function() {
-            document.getElementById('question').style.display = 'none'; // Hide the question
+            document.getElementById('question').style.display = 'none';
+            document.getElementById('options').style.display = 'none';
+            // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
           
             
@@ -63,7 +64,6 @@ function displayCat() {
 
 // Function to display the cat-heart.gif
 function displayCatHeart() {
-    document.getElementById('pt2').style.display = '';
     // Clear existing content in the image container
     document.getElementById('image-container').innerHTML = '';
     // Get the container where the image will be displayed
