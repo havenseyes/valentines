@@ -79,6 +79,7 @@ function displayCatHeart() {
         // Hide the options container
         document.getElementById('options').style.display = 'none';
     };
+    document.getElementById("pt2").style.display="";
 }
 // Display the cat.gif initially
 displayCat();
