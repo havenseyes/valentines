@@ -75,8 +75,8 @@ p {
 }
 
 #img1 {
- border-radius: 8px;
+border-radius: 8px;
+ background: transparent;
  display: block;
-  margin: auto;
-  width: 50%; 
+  width: 100%; 
 }
