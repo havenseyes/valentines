@@ -74,7 +74,7 @@ p {
   margin: 10px;
 }
 
-img1 {
+#img1 {
  display: block;
  margin-left: 20pxs;
  margin-right: 200pxs;
@@ -82,7 +82,7 @@ img1 {
  height: 200px;
 }
 
-h2 {
+#h2 {
   font-family: "Emilys Candy", serif;
   font-size: 20px;
   margin-top: 50px;
