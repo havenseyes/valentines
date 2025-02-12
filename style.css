@@ -65,11 +65,11 @@ button {
 }
 
 p {
-  margin-top: 500px;
+  margin-top: 200px;
   margin-left: 10px;
   font-size: 30px;
   font-family: "Emilys Candy", serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #img1 {
@@ -79,15 +79,10 @@ p {
  width: 25%;
 }
 
-#h2 {
-  font-family: "Emilys Candy", serif;
-  font-size: 20px;
-  margin-top: 50px;
-}
 
 #pt2 {
   font-family: "Emilys Candy", serif;
-  font-size: 30px;
+  font-size: 20px;
   margin: 0px;
 }
 
