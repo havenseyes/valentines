@@ -57,18 +57,19 @@ button {
   text-align: center;
   padding: 15px;
   text-decoration: none;
+  font-family: "Emilys Candy", serif;
+  font-size: 20px;
+  margin: 0px;
 }
 
 #navbar a:hover {
   background-color: #e699ff;
   color: black;
-}
-
-#pt2 {
   font-family: "Emilys Candy", serif;
   font-size: 20px;
   margin: 0px;
 }
+
 p {
   margin-top: 100px;
   margin-left: 10px;
