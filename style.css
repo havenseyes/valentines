@@ -41,12 +41,6 @@ button {
     cursor: pointer; /* Set cursor to pointer on hover */
 }
 
-#pt2 {
-  font-family: "Emilys Candy", serif;
-  font-size: 30px;
-  margin: 0px;
-}
-
 #navbar {
   background-color: #250033; /* Black background color */
   position: fixed; /* Make it stick/fixed */
@@ -73,6 +67,8 @@ button {
 p {
   margin-top: 500px;
   margin-left: 10px;
+  font-size: 30px;
+  font-family: "Emilys Candy", serif;
   font-size: 30px;
 }
 
