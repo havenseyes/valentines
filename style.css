@@ -64,6 +64,11 @@ button {
   color: black;
 }
 
+#pt2 {
+  font-family: "Emilys Candy", serif;
+  font-size: 20px;
+  margin: 0px;
+}
 p {
   margin-top: 100px;
   margin-left: 10px;
@@ -79,12 +84,6 @@ p {
  width: 25%;
 }
 
-
-#pt2 {
-  font-family: "Emilys Candy", serif;
-  font-size: 20px;
-  margin: 0px;
-}
 
 h1 {
   font-family: "Emilys Candy", serif;
