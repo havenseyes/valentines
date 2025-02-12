@@ -78,10 +78,9 @@ p {
 }
 
 #img1 {
- display: block;
- align-items: center;
- margin-left: 50px;
- width: 33.3%
+   float: left;
+  width: 33.3%;
+  padding: 5px;
 }
 
 
