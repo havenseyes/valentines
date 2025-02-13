@@ -80,5 +80,4 @@ function displayCatHeart() {
 document.getElementById("pt2").style.display="";
 }
 // Display the cat.gif initially
-
 displayCat();
