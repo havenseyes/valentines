@@ -102,16 +102,19 @@ h1 {
   display: table;
 }
 
-.row1 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
 }
+
 
 /* Create two equal columns that sits next to each other */
 .column1 {
-  flex: 50%;
-  padding: 0 4px;
+  margin-left: 40px;
+  float: left;
+  width: 33.3%;
+  padding: 5px;
 }
 
 .column1 img {
