@@ -110,8 +110,9 @@ h1 {
 
 /* Create two equal columns that sits next to each other */
 .column1 {
-  flex: 50%;
-  padding: 0 4px;
+  margin-left: 40px;
+  float: left;
+  padding: 5px;
 }
 
 .column1 img {
