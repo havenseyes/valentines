@@ -89,7 +89,8 @@ h1 {
 }
 
 .column {
-  float: left;
+  align-items: center;
+  float: center;
   width: 33.3%;
   padding: 5px;
 }
