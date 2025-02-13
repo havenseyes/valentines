@@ -14,6 +14,7 @@ body {
     align-items: center; /* Center-align items horizontally */
     justify-content: center; /* Center-align items vertically */
     height: 100vh; /* Make the container full viewport height */
+    margin-top: 200px;
 }
 
 #image-container {
